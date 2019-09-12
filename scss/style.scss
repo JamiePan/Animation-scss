@@ -1,0 +1,44 @@
+// @import "./variables.scss";
+// @import "./mixins.scss";
+
+html{
+    font-size:10px;
+    font-family:sans-serif;
+}
+
+@media only screen and (min-width: 320ox){
+
+}
+
+body{
+   background-color: black;
+}
+
+.wrapper{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.animated-text-container{
+    
+    color:#ffff;
+    padding:0 20px;
+    background-color:#ffff;
+    width:20rem;
+    height:6rem;
+    overflow:hidden;
+}
+
+.list{
+    font-size:4rem;
+    line-height:6rem;
+}
+
+.list:first-child{
+    //@include scroll(12s);
+}
+
